@@ -1,10 +1,4 @@
-'use strict';
-
-
-
-/**
- * navbar toggle
- */
+"use strict";
 
 const overlay = document.querySelector("[data-overlay]");
 const navOpenBtn = document.querySelector("[data-nav-open-btn]");
@@ -19,12 +13,6 @@ for (let i = 0; i < navElems.length; i++) {
     overlay.classList.toggle("active");
   });
 }
-
-
-
-/**
- * header & go top btn active on page scroll
- */
 
 const header = document.querySelector("[data-header]");
 const goTopBtn = document.querySelector("[data-go-top]");
